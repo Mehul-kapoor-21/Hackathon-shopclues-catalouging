@@ -1,0 +1,35 @@
+.title-i {
+  width: 180px;
+  height: 180px;
+  /* background: #443c65; */
+  /* background: linear-gradient(30deg, #372e59, #8e86ae); */
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.title-h1 {
+  font-family: "Katibeh", serif;
+  color: white;
+  font-size: 2.3rem;
+  margin-top: -10px;
+}
+
+.title-i h2 {
+  font-family: "Katibeh", serif;
+  font-style: italic;
+  color: white;
+  font-size: 2rem;
+  margin-top: -10%;
+}
+
+.title-i h3 {
+  font-family: "Eagle Lake", serif;
+  font-style: italic;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: -10%;
+}

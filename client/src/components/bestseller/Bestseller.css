@@ -1,0 +1,19 @@
+.bestseller-i {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.p2 {
+  margin-top: -20px;
+}

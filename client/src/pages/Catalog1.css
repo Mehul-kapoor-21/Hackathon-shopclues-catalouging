@@ -1,0 +1,209 @@
+.first-div {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.product-name {
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  width: 50%;
+}
+
+.dot1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 5%;
+  right: 5%;
+}
+
+.dot1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-name h1 {
+  font-size: 4rem;
+  font-family: "Katibeh", serif;
+  margin-top: 0;
+}
+
+.main-img {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  top: 50%;
+  height: 60%;
+}
+.main-img img {
+  width: 100%;
+  height: 100%;
+}
+.discount1 {
+  position: absolute;
+  right: -10%;
+  top: -25%;
+}
+
+.bestseller {
+  position: absolute;
+  right: -5%;
+  top: 45%;
+}
+
+.title {
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+}
+
+.second-div {
+  width: 100%;
+  height: 300px;
+  /* background-color: #d1eea6; */
+}
+
+.third-div {
+  width: 100%;
+  height: 220px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dis {
+  text-align: center;
+  font-size: 1rem;
+  margin: auto;
+  width: 100%;
+}
+
+.dis div {
+  text-align: center;
+  font-size: 1rem;
+  margin: auto;
+  width: 70%;
+}
+
+.third-div h2 {
+  font-size: 2.2rem;
+}
+
+.inner1 {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Katibeh", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner2 {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Katibeh", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner3 {
+  width: 33%;
+  height: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Katibeh", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dis {
+  margin-top: -7%;
+}
+
+.inner1 .dis,
+.inner2 .dis {
+  border-right: 3px solid gray;
+}
+
+.sideimg {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -20%;
+  box-shadow: 0 0 20px rgb(234, 227, 230);
+}
+
+.sideimg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.btn {
+  text-align: center;
+  border: none;
+  background-color: rgb(26, 69, 171);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.purpul {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.orange {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.green {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  cursor: pointer;
+}
+
+.color-div {
+  display: flex;
+  gap: 10px;
+}
+
+.btn1 {
+  background-color: green;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+}

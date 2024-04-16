@@ -1,0 +1,151 @@
+/* Form.css */
+.maindiv {
+  width: 100%;
+  background-color: #53c4f5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  border-color: white;
+  box-shadow: 0 0 10px white;
+  outline: none;
+}
+
+.form-title {
+  text-align: center;
+  color: #04374d;
+  margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.div1 {
+  width: 46%;
+}
+
+.div2 {
+  width: 46%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: #3d3c3c;
+}
+
+.form-input,
+.form-textarea {
+  width: 90%;
+  height: 13px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.error-message,
+.success-message {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.success-message {
+  color: #27ae60;
+}
+
+.submit-button {
+  background-color: #10a8ea;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+  width: 70%;
+}
+
+.submit-button:hover {
+  background-color: #10a8ea;
+}
+
+.img-up {
+  border: 4px dashed #53c4f5;
+  height: 300px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.icons {
+  font-size: 4rem;
+  color: #10a8ea;
+  text-align: center;
+}
+.icons h6 {
+  font-size: 1rem;
+  margin-top: 0;
+  color: black;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #10a8ea;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #10a8ea;
+}
+
+.btn-g button {
+  padding: 8px;
+  border: none;
+  background-color: #10a8ea;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+  border-color: #10a8ea;
+  box-shadow: 0 0 10px #10a8ea;
+  outline: none;
+}

@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.flex1{
+    display: flex;
+    border: 2px solid black;
+    background-color: blue;
+
+}
